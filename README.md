@@ -5,7 +5,7 @@ Replacement for Gallery widget in Android with View recycling. This originally m
 
 ##Usage: 
 
-1- You need to include 'EcoGallery' android library to your project. (Eclipse project: properties -> Android -> Library - Add)
+1- Include 'EcoGallery' android library to your project. (Eclipse project: properties -> Android -> Library - Add)
 
 2-  You could declare EcoGallery in the layout xml file, Example:  
 
@@ -16,7 +16,7 @@ Replacement for Gallery widget in Android with View recycling. This originally m
         android:layout_alignParentBottom="true" 
         /> 
         
-3- You need to use EcoGalleryAdapterView instead of AdapterView. 
+3- Use EcoGalleryAdapterView instead of AdapterView. 
 
 ##Limitation: 
 
