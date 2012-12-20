@@ -20,6 +20,6 @@ Replacement for Gallery widget in Android with View recycling. This originally m
 
 ##Limitation: 
 
->The existing implementation assumed that each different position in the adapter resulted in a unique view. The changes above are only good if your Gallery contains only one type of item, if not you'll need to add some sort of key based on item type and the amount of that type required.
+>The existing implementation assumed that each different position in the adapter resulted in a unique view. The changes are only good if your Gallery contains only one type of item, if not you'll need to add some sort of key based on item type and the amount of that type required.
 
 
