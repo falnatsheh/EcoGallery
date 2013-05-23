@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Ecogallery : Replacement for Gallery widget in Android with View recycling." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ecogallery</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/falnatsheh/EcoGallery">View on GitHub</a>
+
+          <h1 id="project_title">Ecogallery</h1>
+          <h2 id="project_tagline">Replacement for Gallery widget in Android with View recycling.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/falnatsheh/EcoGallery/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/falnatsheh/EcoGallery/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>EcoGallery</h1>
+
+<p>Replacement for Gallery widget in Android with View recycling. This originally made by Joseph Earl (<a href="http://stackoverflow.com/a/5882944">details</a>). </p>
+
+<h2>Usage:</h2>
+
+<p>1- Include 'EcoGallery' android library to your project. (Eclipse project: properties -&gt; Android -&gt; Library - Add)</p>
+
+<p>2-  You could declare EcoGallery in the layout xml file, Example:  </p>
+
+<pre><code>&lt;us.feras.ecogallery.EcoGallery
+    android:id="@+id/images"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" 
+    android:layout_alignParentBottom="true" 
+    /&gt; 
+</code></pre>
+
+<p>3- Use EcoGalleryAdapterView instead of AdapterView. </p>
+
+<h2>Limitation:</h2>
+
+<blockquote>
+<p>The existing implementation assumed that each different position in the adapter resulted in a unique view. The changes are only good if your Gallery contains only one type of item, if not you'll need to add some sort of key based on item type and the amount of that type required.</p>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ecogallery maintained by <a href="https://github.com/falnatsheh">falnatsheh</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
