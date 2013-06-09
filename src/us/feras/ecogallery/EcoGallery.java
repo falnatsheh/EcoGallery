@@ -50,16 +50,6 @@ public class EcoGallery extends EcoGalleryAbsSpinner implements GestureDetector.
 	 */
 	private float mUnselectedAlpha;
 
-	/**
-	 * Left most edge of a child seen so far during layout.
-	 */
-	private int mLeftMost;
-
-	/**
-	 * Right most edge of a child seen so far during layout.
-	 */
-	private int mRightMost;
-
 	private int mGravity;
 
 	/**
@@ -183,7 +173,7 @@ public class EcoGallery extends EcoGalleryAbsSpinner implements GestureDetector.
 		// right overlaps it)
 		int FLAG_USE_CHILD_DRAWING_ORDER = 0x400;
 		int FLAG_SUPPORT_STATIC_TRANSFORMATIONS = 0x800;
-		Class vgClass = ViewGroup.class;
+		Class<ViewGroup> vgClass = ViewGroup.class;
 
 		try {
 			Field childDrawingOrder = vgClass.getDeclaredField("FLAG_USE_CHILD_DRAWING_ORDER");
@@ -625,13 +615,6 @@ public class EcoGallery extends EcoGalleryAbsSpinner implements GestureDetector.
 
 		// Clear out old views
 		detachAllViewsFromParent();
-
-		/*
-		 * These will be used to give initial positions to views entering the
-		 * gallery as we scroll
-		 */
-		mRightMost = 0;
-		mLeftMost = 0;
 
 		// Make selected view and center it
 
