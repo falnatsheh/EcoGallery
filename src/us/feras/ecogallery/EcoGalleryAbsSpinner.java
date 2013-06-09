@@ -232,7 +232,7 @@ public abstract class EcoGalleryAbsSpinner extends EcoGalleryAdapterView<Spinner
     @Override
     protected ViewGroup.LayoutParams generateDefaultLayoutParams() {
         return new ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
     }
    
