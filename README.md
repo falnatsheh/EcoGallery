@@ -18,6 +18,11 @@ Replacement for Gallery widget in Android with View recycling. This originally m
         
 3- Use EcoGalleryAdapterView instead of AdapterView. 
 
+For a complete tutorial check the [wiki](https://github.com/falnatsheh/EcoGallery/wiki/EcoGallery-Sample-Code). 
+
+## Sample App
+Click [here](https://github.com/falnatsheh/EcoGallery/tree/master/EcoGallerySample) to view the sample app
+
 ##Limitation: 
 
 >The existing implementation assumed that each different position in the adapter resulted in a unique view. The changes are only good if your Gallery contains only one type of item, if not you'll need to add some sort of key based on item type and the amount of that type required.
