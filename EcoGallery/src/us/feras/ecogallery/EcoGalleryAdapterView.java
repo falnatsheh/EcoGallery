@@ -166,6 +166,10 @@ public abstract class EcoGalleryAdapterView<T extends Adapter> extends ViewGroup
 	 */
 	int mOldSelectedPosition = INVALID_POSITION;
 
+	public int getOldPosition() {
+		return mOldSelectedPosition;
+	}
+	
 	/**
 	 * The id of the last selected position we used when notifying
 	 */
