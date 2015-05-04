@@ -42,5 +42,5 @@ June 24, 2013
 
 <style name="ecoGalleryStyle"> </style>
 ```
-Thanks to @[hastoukopsaro]for providing this tip. (https://github.com/hastoukopsaro)
+Thanks to @[hastoukopsaro](https://github.com/hastoukopsaro)for providing this tip. 
 
