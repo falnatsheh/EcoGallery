@@ -33,7 +33,7 @@ June 24, 2013
 
 ## Notes
 
-### If you got `Failed to find style 'ecoGalleryStyle' in current theme` then add an empty style in your AppTheme in styles.xml like below: 
+- If you got `Failed to find style 'ecoGalleryStyle' in current theme` then add an empty style in your AppTheme styles.xml see an example below: 
 
 ```xml
 <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
