@@ -31,4 +31,16 @@ June 24, 2013
 
 >The existing implementation assumed that each different position in the adapter resulted in a unique view. The changes are only good if your Gallery contains only one type of item, if not you'll need to add some sort of key based on item type and the amount of that type required.
 
+## Notes
+
+### If you got `Failed to find style 'ecoGalleryStyle' in current theme` then add an empty style in your AppTheme in styles.xml like below: 
+
+```xml
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="ecoGalleryStyle">@style/ecoGalleryStyle</item>
+</style>
+
+<style name="ecoGalleryStyle"> </style>
+```
+Thanks to @[hastoukopsaro]for providing this tip. (https://github.com/hastoukopsaro)
 
