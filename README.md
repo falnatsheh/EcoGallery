@@ -3,6 +3,8 @@ EcoGallery
 
 Replacement for Gallery widget in Android with View recycling. This originally made by Joseph Earl ([details](http://stackoverflow.com/a/5882944)). 
 
+**THIS PROJECT IS RETIRED** 
+
 ##Usage: 
 
 1- Include 'EcoGallery' android library to your project. (Eclipse project: properties -> Android -> Library - Add)
