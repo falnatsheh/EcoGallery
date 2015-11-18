@@ -1,9 +1,10 @@
+
+**THIS PROJECT IS RETIRED** 
+
 EcoGallery
 ==========
 
 Replacement for Gallery widget in Android with View recycling. This originally made by Joseph Earl ([details](http://stackoverflow.com/a/5882944)). 
-
-**THIS PROJECT IS RETIRED** 
 
 ##Usage: 
 
