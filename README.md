@@ -1,6 +1,9 @@
 
 **THIS PROJECT IS RETIRED** 
 
+I'm using now a RecyclerView with horizontal scrolling, it does not snap like the GalleryView but I created a line in the middle that if one of the gallery view childs touch it then I'll do an action in my app (something like [this](http://applenapps.com/wp-content/uploads/2013/10/imovie_2_iphone1.jpg)). If you are intrested of seeing this open sourced or have a question of how it's beeing done, feel free to reach out to me on twitter [@thisisferas](https://twitter.com/thisisferas).
+
+
 EcoGallery
 ==========
 
